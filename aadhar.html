@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Aadhaar Card</title>
+
+<style>
+
+/* Page Background */
+body{
+    background: #f2f2f2;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Card Box */
+.card{
+    width: 620px;
+    margin: 40px auto;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0px 0px 12px rgba(0,0,0,0.3);
+    background: white;
+}
+
+/* Top Saffron Strip */
+.top{
+    background: #FF9933;
+    padding: 6px;
+}
+
+/* Bottom Green Strip */
+.bottom{
+    background: #138808;
+    padding: 6px;
+}
+
+/* Header Section */
+.header{
+    text-align: center;
+    padding: 10px;
+    border-bottom: 2px solid #ddd;
+}
+
+.header img{
+    width: 70px;
+}
+
+.header h2{
+    margin: 4px;
+    color: #b30000;
+}
+
+.header h4{
+    margin: 2px;
+}
+
+/* Main Section */
+.main{
+    display: flex;
+    padding: 15px;
+}
+
+/* Photo */
+.photo{
+    width: 150px;
+    text-align: center;
+}
+
+.photo img{
+    width: 120px;
+    height: 140px;
+    border: 2px solid #000;
+}
+
+/* Details */
+.details{
+    flex: 1;
+    padding-left: 20px;
+    font-size: 15px;
+}
+
+.details p{
+    margin: 8px 0;
+}
+
+/* Aadhaar Number */
+.aadhaar{
+    text-align: center;
+    font-size: 26px;
+    letter-spacing: 4px;
+    font-weight: bold;
+    color: #000;
+    margin-top: 10px;
+}
+
+/* Footer */
+.footer{
+    text-align: center;
+    font-size: 14px;
+    padding: 8px;
+}
+
+.footer span{
+    color: green;
+    font-weight: bold;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="card">
+
+    <div class="top"></div>
+
+    <!-- Header -->
+    <div class="header">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Emblem_of_India.svg/800px-Emblem_of_India.svg.png">
+        <h2>Government of India</h2>
+        <h4>Unique Identification Authority of India</h4>
+    </div>
+
+    <!-- Main Section -->
+    <div class="main">
+
+        <!-- Photo -->
+        <div class="photo">
+            <img src="https://cdn-icons-png.flaticon.com/512/149/149071.png">
+        </div>
+
+        <!-- Details -->
+        <div class="details">
+            <p><b>Name:</b> Nandita Reddy</p>
+            <p><b>Date of Birth:</b> 03/11/2004</p>
+            <p><b>Gender:</b> Female</p>
+            <p><b>Address:</b><br>
+            12-45/2, Habshiguda,<br>
+            Uppal Mandal,<br>
+            Hyderabad, Telangana - 500007</p>
+        </div>
+
+    </div>
+
+    <!-- Aadhaar Number -->
+    <div class="aadhaar">
+        1234 5678 9123
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <span>Aadhaar</span> – My Identity, My India
+    </div>
+
+    <div class="bottom"></div>
+
+</div>
+
+</body>
+</html>
+
