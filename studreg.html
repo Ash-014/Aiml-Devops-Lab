@@ -1,0 +1,71 @@
+<html>
+<head>
+<link href="studreg.css" rel="stylesheet" />
+</head>
+<body>
+<img src="streg.jpg" alt="stud reg image" class="center">
+<h1> DevOps Lab</h1>
+<h2> Student Registration Form</h1>
+<form action = "http://127.0.0.1:8081/process_get" method = "GET">
+<table border="5" align="center" cellspacing="10" cellpadding="10" >
+<tr>
+<td>Name</td><td><input type="text" name="sname"></td>
+</tr>
+<tr>
+<td>Contact Number</td>
+<td><input type="text" name="scon"></td>
+</tr>
+<tr>
+<td>Gender</td>
+<td><input type="radio" name="g">Male
+<input type="radio" name="g">Female</td>
+</tr>
+<tr>
+<td>Address</td>
+<td><textarea rows="5" cols="15" name="sadd"></textarea></td>
+</tr>
+<tr>
+<td>Hobbies</td>
+<td><input type="checkbox" name="shob">Singing
+<input type="checkbox" name="shob">Travelling
+<input type="checkbox" name="shob">Reading novels
+</td>
+</tr>
+<tr>
+<td>Skillset</td>
+<td><input type="checkbox" name="sss">C
+<input type="checkbox" name="sss">Python
+<input type="checkbox" name="sss">Java
+</td>
+</tr>
+
+<tr>
+<td>Highest Qualification</td>
+<td><select name="shq">
+<option><--SELECT--></option>
+<option>Ph.D</option>
+<option>M.E/M.Tech</option>
+<option>B.E/B.Tech</option>
+<option>Diploma</option>
+<option>Inter</option>
+<option>SSC</option>
+</select>
+</td>
+</tr>
+<td>District</td>
+<td><select name="sdis">
+<option>--SELECT--></option>
+<option>Adilabad</option>
+<option>Zaheerabad</option>
+</select>
+</td>
+</tr>
+
+<tr>
+<td><input type="submit" name="submit" value="Register"></td>
+<td><input type="reset" value="Clear"></td>
+</tr>
+</table>
+</form>
+</body>
+</html>
